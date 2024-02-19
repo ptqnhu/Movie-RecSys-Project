@@ -29,6 +29,6 @@ for i in range(1,501,1):
     except Exception as e:
         print(f'An error occurred: {str(e)}')
 
-# 
+# create a DataFrame object from the data and convert it into a CSV file
 df = pd.DataFrame(data)
 df.to_csv('tmdb.csv', index=False)
