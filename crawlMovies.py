@@ -32,6 +32,3 @@ for i in range(1,501,1):
 # 
 df = pd.DataFrame(data)
 df.to_csv('tmdb.csv', index=False)
-
-print(df.head(5))
-print(df.shape)
